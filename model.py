@@ -3,6 +3,10 @@ from keras import Model
 
 import numpy as np
 
+
+
+
+## This is an encoder AI
 class AutoEncoder():
     def __init__(self , NUM_LAYERS , image_size , conv_filter , conv_kernel_size , conv_strides , conv_t_filter , conv_t_kernel_size , conv_t_strides , z_dim):
         ## Constants
